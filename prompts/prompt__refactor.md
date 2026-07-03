@@ -5,6 +5,7 @@ directly, without a human filling in gaps. Use the `knowledge_base/` folder to a
 For each test case, output a markdown file.
 
 OUTPUT FORMAT (per test case)
+```
 - ID, Title, URL(s) under test, Priority (carry over if given, else omit),
   Preconditions
 - Steps: flat, sequential numbering. Tag each step [ACTION] or [CHECKPOINT].
@@ -42,3 +43,4 @@ Given the raw test case(s) below, rewrite each one following the format and
 rules above. Do one test case at a time. Where you infer behavior not
 stated in the source, mark it [ASSUMED] and briefly explain the inference.
 ---
+```
